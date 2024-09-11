@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+<!-- HEADER AT THE TOP -->    
+    <div id="container">
+        <div id="hello">
+<span><div id="current-time"></div></span> 
+<span><div id="current-time"></div></span> 
+<span><div id="current-time"></div></span> 
+            
+        </div>
+        <div id="name">
+            <h1 class="text">B</h1>
+            <h1 class="text">a</h1>
+            <h1 class="text">c</h1>
+            <h1 class="text">k</h1>
+            <h1 class="text">g</h1>
+            <h1 class="text">r</h1>
+            <h1 class="text">o</h1>
+            <h1 class="text">u</h1>
+            <h1 class="text">n</h1>
+            <h1 class="text">d</h1>
+
+		</div>        <div id="hello">
+                            <span><h6>By:</h6></span>
+                            <span><h6>Nguyễn</h6></span>
+                            <span><h6>Tấn</h6></span>
+                            <span><h6>Gia</h6></span>
+                            <span><h6>Hưng</h6></span>
+        
+        </div><!DOCTYPE html>
+<html>
+<head>
+  <title>Current Date and Time</title>
+</head>
+<body>
+  <h1 id="current-time"></h1>
+
+  <script>
+    function updateDateTime() {
+      const now = new Date();
+      const year = now.getFullYear();
+      const month = now.getMonth() + 1; // +1 because getMonth() returns 0-11
+      const day = now.getDate();
+      const hour = now.getHours();
+      const minute = now.getMinutes();
+      const second = now.getSeconds();
+
+      const dateTimeString = `${year}/${month}/${day} ${hour}:${minute}:${second}`;
+      document.getElementById("current-time").innerHTML = dateTimeString;
+    }
+
+    updateDateTime();
+    setInterval(updateDateTime, 1000); // update every 1 second
+  </script>
+</body>
+</html></div>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
